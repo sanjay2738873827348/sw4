@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website-2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brooklawn Middle School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievments">Achievements</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="announcement">
+            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to ask queries on school@gmail.com ***
+            </marquee>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/st_dMR8IT60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="campus_life">
+            <h2 class="text-capitalize">Campus life</h2>
+        </div>
+        <div class="row">
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="bms.jpg">
+                <h4 class="text-capitalize"><kbd>Brooklawn SCHOOL-CAMPUS</kbd></h4>
+                <hr>
+                <p class="text-muted">Brooklawn Middle School, Parsippany Troy Hills School District, is located in Morris County, New Jersey. Approximately 900 sixth, seventh, and eighth graders are taught by 115 content and special area teachers. Be sure to visit our site, whenever possible, to check for curriculum related information as well as news and special events. </p>
+            </div>
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="data:image/jpeg;base64,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">
+                <h4 class="text-capitalize"><kbd>ART CLASSROOM</kbd></h4>
+                <hr>
+                <p class="text-muted">To kindle a conducive learning environment on par with the best institutions worldwide, Chennai Public School has spared no effort or investment to ensure that the best infrastructure is made available to students to enable them to pursue their education with ease and comfort.</p>
+            </div>
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="https://nationalblueribbonschools.ed.gov/awardwinners/winning/asset/2020/school_photos/20oh117pu_solon_middle_school.jpg">
+                <h4 class="text-capitalize"><kbd>Smart Class – Interactive Digital classroom:</kbd></h4>
+                <hr>
+                <p class="text-muted">Brooklawn was one of the first schools in Parsippany to have smart boards in all the classrooms and also a 5.1 theatre system in all classrooms.</p>
+            </div>
+        </div>
+        <div class="page-header" id="achievments">
+            <h2 class="text-capitalize">school achievments</h2>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment1">
+            Future 50 schools shaping success<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://bms.pthsd.k12.nj.us/common/pages/UserFile.aspx?fileId=1124711" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievment_text">
+                <h5 class="text-success text-capitalize">Future 50 schools shaping success
+                </h5>
+                <p>Chennai Public School has etched a covetous place as one among the top 50 Schools in Parsippany, Shaping Success in the 2017 ranking conducted by the Future 50 - Fortune Magazine. Over 250 schools from 60+ cities all over the country participated in this ranking.</p>
+            </div>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment2">
+            Center of excellence for kids<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://pbs.twimg.com/media/Ck6u8C0WUAIdjj9.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-capitalize">Center of excellence for kids
+                </h5>
+                <p>Public Math clubs encourage students to learn more</p>
+            </div>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment3">
+            Sports & games<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyOj3fnzyjUTtPqr5QRXNWn304N_-xCCx2adtHW194eyYFQ5pify0JCho9CAanA3-E4E8&usqp=CAU" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-capitalize">Sports & games
+                </h5>
+                <p>Bms sports event</p>
+            </div>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 whats_new_li">
+                <h4>Smart classroom</h4>
+                <img src="https://m.media-amazon.com/images/I/81-nLxWWHSL._AC_SL1500_.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                   BMS is one of the first parsipaanyschools to have smart boards in all the classrooms and also a 5.1 theatre system in all classrooms.
+                </p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 whats_new_li">
+                <h4>Education through online</h4>
+                <img src="https://i.ytimg.com/vi/DeOVe2YV2Io/maxresdefault.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    One of the major parts of learning is the experience gained by spending time with peers going through the same courses. Many people like discussing and learning through group studies.This lack of human Interaction is very prominent in these classes BMS uses google classroom to manage their online classes.
+                </p>
+            </li>
+        </ul>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <h2 class="text-capitalize">Our Alumni</h2>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_1">
+            <img src="https://marco.com/images/staff-marco.jpg" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">marco falibeve</p>
+        </div>
+        <div class="modal fade" id="alumni_1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">marco falibeve</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://marco.com/images/staff-marco.jpg" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal">Software engineer<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_2">
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQGo0kCDGlixUw/profile-displayphoto-shrink_200_200/0/1516453869959?e=1640217600&v=beta&t=QoqyUJrNsDHis8HA5bCa5fRDg5avteSQfpNp1XLBiuQ" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">Jeanine Hope</p>
+        </div>
+        <div class="modal fade" id="alumni_2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Jeanine Hope</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://chennaipublicschool.com/alumni/upload/1507898006.png" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal">Teacher<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_3">
+            <img src="https://hips.hearstapps.com/rover/profile_photos/1484dff8-b82e-4b37-84d1-2f9fac23ba33_1476454757.jpg" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">John Scala</p>
+        </div>
+        <div class="modal fade" id="alumni_3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">John scala</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://hips.hearstapps.com/rover/profile_photos/1484dff8-b82e-4b37-84d1-2f9fac23ba33_1476454757.jpg" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal">Medical Doctor<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alumni" data-toggle="modal" data-target="#alumni_4">
+            <img src="https://www.mountsinai.org/files/fad_img_new/181/0000076810069669547201/0000072500064175875481.jpg" class="img-responsive img-circle">
+            <hr>
+            <p class="text-primary">Patrick Maher</p>
+        </div>
+        <div class="modal fade" id="alumni_4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Patrick Maher</h4>
+                    </div>
+                    <br>
+                    <div class="modal-body">
+                        <img src="https://www.mountsinai.org/files/fad_img_new/181/0000076810069669547201/0000072500064175875481.jpg" class="img-circle img_modal">
+                        <br>
+                        <p class="p_modal">Medicinal Scientist<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize">Contact Us</h2>
+        </div>
+        <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12070.575263347833!2d-74.4499157!3d40.8577433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x884c67a2e50da6ed!2sBrooklawn%20Middle%20School!5e0!3m2!1sen!2sus!4v1634503680199!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="Details">
+            <img src="s.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal name: </h3>
+            <h4>Principal</h4>
+            <div class="contact_1">
+                <a href="school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;school id</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;123456789</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
